@@ -1,0 +1,714 @@
+
+
+Started GET "/" for ::1 at 2016-04-12 00:18:14 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/changreytang/.rvm/gems/ruby-2.2.1@global/gems/railties-4.2.4/lib/rails/templates/rails/welcome/index.html.erb (3.3ms)
+Completed 200 OK in 69ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-12 00:24:57 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 2902ms (Views: 2887.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-12 00:25:00 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-12 00:25:00 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-12 00:25:01 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-12 00:25:01 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-12 00:25:01 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-12 00:25:01 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-12 00:25:01 -0700
+
+
+Started GET "/" for ::1 at 2016-04-13 21:49:08 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (47.3ms)
+Completed 200 OK in 386ms (Views: 383.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-dbf229aa9842467ac5323484c08ad1f33018db86365bc37cbb7e006786f1ef4c.css?body=1" for ::1 at 2016-04-13 21:49:10 -0700
+
+
+Started GET "/assets/easy_park_logo-72b5a2369d399aa712e07777238dae191884fc0a4d75572190cdfcf5336fc610.png" for ::1 at 2016-04-13 21:49:10 -0700
+
+
+Started GET "/" for ::1 at 2016-04-13 21:49:57 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 98ms (Views: 96.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-dbf229aa9842467ac5323484c08ad1f33018db86365bc37cbb7e006786f1ef4c.css?body=1" for ::1 at 2016-04-13 21:49:58 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-13 21:49:58 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-13 21:49:58 -0700
+
+
+Started GET "/assets/easy_park_logo-72b5a2369d399aa712e07777238dae191884fc0a4d75572190cdfcf5336fc610.png" for ::1 at 2016-04-13 21:49:58 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-13 21:49:58 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-13 21:49:58 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-13 21:49:58 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-13 21:49:58 -0700
+
+
+Started GET "/" for ::1 at 2016-04-13 21:50:15 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 50ms (Views: 49.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-13 21:50:15 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-13 21:50:15 -0700
+
+
+Started GET "/assets/home.self-dbf229aa9842467ac5323484c08ad1f33018db86365bc37cbb7e006786f1ef4c.css?body=1" for ::1 at 2016-04-13 21:50:16 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-13 21:50:16 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-13 21:50:16 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-13 21:50:16 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-13 21:50:16 -0700
+
+
+Started GET "/assets/easy_park_logo-72b5a2369d399aa712e07777238dae191884fc0a4d75572190cdfcf5336fc610.png" for ::1 at 2016-04-13 21:50:16 -0700
+
+
+Started GET "/" for ::1 at 2016-04-13 21:50:24 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 57ms (Views: 56.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-13 21:50:24 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-13 21:50:24 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-13 21:50:24 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-13 21:50:24 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-13 21:50:24 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-13 21:50:24 -0700
+
+
+Started GET "/assets/home.self-dbf229aa9842467ac5323484c08ad1f33018db86365bc37cbb7e006786f1ef4c.css?body=1" for ::1 at 2016-04-13 21:50:24 -0700
+
+
+Started GET "/assets/easy_park_logo-72b5a2369d399aa712e07777238dae191884fc0a4d75572190cdfcf5336fc610.png" for ::1 at 2016-04-13 21:50:24 -0700
+
+
+Started GET "/" for ::1 at 2016-04-13 21:53:52 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (33.3ms)
+Completed 200 OK in 190ms (Views: 189.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-dbf229aa9842467ac5323484c08ad1f33018db86365bc37cbb7e006786f1ef4c.css?body=1" for ::1 at 2016-04-13 21:53:53 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-13 21:53:53 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-13 21:53:53 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-13 21:53:53 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-13 21:53:53 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-13 21:53:53 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-13 21:53:53 -0700
+
+
+Started GET "/assets/easy_park_logo-dfeb9f856651947e9fe4d8c2ab81c9530fb5c5838d6bef07dfb2a9723b5d889d.png" for ::1 at 2016-04-13 21:53:53 -0700
+
+
+Started GET "/" for ::1 at 2016-04-13 21:54:13 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 545ms (Views: 543.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-57e61349efe1346ec456e2dcd5bc84756df91ae200af919ca78fecda73c37d88.css?body=1" for ::1 at 2016-04-13 21:54:15 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-13 21:54:15 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-13 21:54:15 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-13 21:54:15 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-13 21:54:15 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-13 21:54:15 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-13 21:54:15 -0700
+
+
+Started GET "/assets/easy_park_logo-dfeb9f856651947e9fe4d8c2ab81c9530fb5c5838d6bef07dfb2a9723b5d889d.png" for ::1 at 2016-04-13 21:54:15 -0700
+
+
+Started GET "/" for ::1 at 2016-04-13 21:56:41 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (26.2ms)
+Completed 200 OK in 222ms (Views: 216.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-57e61349efe1346ec456e2dcd5bc84756df91ae200af919ca78fecda73c37d88.css?body=1" for ::1 at 2016-04-13 21:56:42 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-13 21:56:42 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-13 21:56:42 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-13 21:56:42 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-13 21:56:42 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-13 21:56:42 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-13 21:56:42 -0700
+
+
+Started GET "/assets/easy_park_logo-dfeb9f856651947e9fe4d8c2ab81c9530fb5c5838d6bef07dfb2a9723b5d889d.png" for ::1 at 2016-04-13 21:56:42 -0700
+
+
+Started GET "/" for ::1 at 2016-04-13 22:04:34 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 636ms (Views: 634.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-2fd923c8f40f2db324c2a22a8043e097722d41590d07100d9d5740f56282486f.css?body=1" for ::1 at 2016-04-13 22:04:36 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-13 22:04:36 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-13 22:04:36 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-13 22:04:36 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-13 22:04:36 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-13 22:04:36 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-13 22:04:36 -0700
+
+
+Started GET "/assets/easy_park_logo-dfeb9f856651947e9fe4d8c2ab81c9530fb5c5838d6bef07dfb2a9723b5d889d.png" for ::1 at 2016-04-13 22:04:36 -0700
+
+
+Started GET "/assets/easy_park_logo-dfeb9f856651947e9fe4d8c2ab81c9530fb5c5838d6bef07dfb2a9723b5d889d.png" for ::1 at 2016-04-13 22:04:36 -0700
+
+
+Started GET "/assets/landing_bg-c58fda715bde5e9d5546965b7de7e81a6bee1b4cef50355022e89ff43c1c810c.jpg" for ::1 at 2016-04-13 22:04:36 -0700
+
+
+Started GET "/" for ::1 at 2016-04-13 22:07:09 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (28.1ms)
+Completed 200 OK in 263ms (Views: 261.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-d4bf6d9770ed60c59dcd4e95f6b299f95e11ab54075ffe692b196560edd4bfd1.css?body=1" for ::1 at 2016-04-13 22:07:10 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-13 22:07:10 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-13 22:07:10 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-13 22:07:10 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-13 22:07:10 -0700
+
+
+Started GET "/assets/easy_park_logo-dfeb9f856651947e9fe4d8c2ab81c9530fb5c5838d6bef07dfb2a9723b5d889d.png" for ::1 at 2016-04-13 22:07:10 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-13 22:07:10 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-13 22:07:10 -0700
+
+
+Started GET "/assets/easy_park_logo-dfeb9f856651947e9fe4d8c2ab81c9530fb5c5838d6bef07dfb2a9723b5d889d.png" for ::1 at 2016-04-13 22:07:10 -0700
+
+
+Started GET "/" for ::1 at 2016-04-13 22:07:22 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 154ms (Views: 153.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-13 22:07:23 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-13 22:07:23 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-13 22:07:23 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-13 22:07:23 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-13 22:07:23 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-13 22:07:23 -0700
+
+
+Started GET "/assets/easy_park_logo-dfeb9f856651947e9fe4d8c2ab81c9530fb5c5838d6bef07dfb2a9723b5d889d.png" for ::1 at 2016-04-13 22:07:23 -0700
+
+
+Started GET "/assets/home.self-c86ecf28624ad9cad2d2e11ba44e05a9d0b46f4230f6af1bd4689dce98084f1d.css?body=1" for ::1 at 2016-04-13 22:07:23 -0700
+
+
+Started GET "/" for ::1 at 2016-04-13 22:07:25 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 81ms (Views: 80.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-c86ecf28624ad9cad2d2e11ba44e05a9d0b46f4230f6af1bd4689dce98084f1d.css?body=1" for ::1 at 2016-04-13 22:07:25 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-13 22:07:26 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-13 22:07:26 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-13 22:07:26 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-13 22:07:26 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-13 22:07:26 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-13 22:07:26 -0700
+
+
+Started GET "/assets/easy_park_logo-dfeb9f856651947e9fe4d8c2ab81c9530fb5c5838d6bef07dfb2a9723b5d889d.png" for ::1 at 2016-04-13 22:07:26 -0700
+
+
+Started GET "/" for ::1 at 2016-04-13 22:07:35 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 77ms (Views: 76.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-2fd923c8f40f2db324c2a22a8043e097722d41590d07100d9d5740f56282486f.css?body=1" for ::1 at 2016-04-13 22:07:36 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-13 22:07:36 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-13 22:07:36 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-13 22:07:36 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-13 22:07:36 -0700
+
+
+Started GET "/assets/easy_park_logo-dfeb9f856651947e9fe4d8c2ab81c9530fb5c5838d6bef07dfb2a9723b5d889d.png" for ::1 at 2016-04-13 22:07:36 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-13 22:07:36 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-13 22:07:36 -0700
+
+
+Started GET "/assets/landing_bg-c58fda715bde5e9d5546965b7de7e81a6bee1b4cef50355022e89ff43c1c810c.jpg" for ::1 at 2016-04-13 22:07:36 -0700
+
+
+Started GET "/assets/easy_park_logo-dfeb9f856651947e9fe4d8c2ab81c9530fb5c5838d6bef07dfb2a9723b5d889d.png" for ::1 at 2016-04-13 22:07:36 -0700
+
+
+Started GET "/" for ::1 at 2016-04-13 22:08:03 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 113ms (Views: 112.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-89abf3e96e0730271d9e48e5b968a601de7e90ba1e8da61fa223d9a710231e5b.css?body=1" for ::1 at 2016-04-13 22:08:04 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-13 22:08:04 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-13 22:08:04 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-13 22:08:04 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-13 22:08:04 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-13 22:08:04 -0700
+
+
+Started GET "/assets/easy_park_logo-dfeb9f856651947e9fe4d8c2ab81c9530fb5c5838d6bef07dfb2a9723b5d889d.png" for ::1 at 2016-04-13 22:08:04 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-13 22:08:04 -0700
+
+
+Started GET "/assets/landing_bg-c58fda715bde5e9d5546965b7de7e81a6bee1b4cef50355022e89ff43c1c810c.jpg" for ::1 at 2016-04-13 22:08:04 -0700
+
+
+Started GET "/assets/easy_park_logo-dfeb9f856651947e9fe4d8c2ab81c9530fb5c5838d6bef07dfb2a9723b5d889d.png" for ::1 at 2016-04-13 22:08:04 -0700
+
+
+Started GET "/" for ::1 at 2016-04-13 22:10:00 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 244ms (Views: 243.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-b52da48677b95331850a00d827b3d584c5dd86ff79eec952be55f84d22ec8a0a.css?body=1" for ::1 at 2016-04-13 22:10:01 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-13 22:10:01 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-13 22:10:01 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-13 22:10:01 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-13 22:10:01 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-13 22:10:01 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-13 22:10:01 -0700
+
+
+Started GET "/assets/easy_park_logo-dfeb9f856651947e9fe4d8c2ab81c9530fb5c5838d6bef07dfb2a9723b5d889d.png" for ::1 at 2016-04-13 22:10:01 -0700
+
+
+Started GET "/assets/landing_bg-c58fda715bde5e9d5546965b7de7e81a6bee1b4cef50355022e89ff43c1c810c.jpg" for ::1 at 2016-04-13 22:10:01 -0700
+
+
+Started GET "/" for ::1 at 2016-04-13 22:10:12 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 137ms (Views: 135.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-0fb4d58a1c30d5d1c615930b500719af9bf4d4bd800c2daee053fc1644a628cf.css?body=1" for ::1 at 2016-04-13 22:10:13 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-13 22:10:13 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-13 22:10:13 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-13 22:10:13 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-13 22:10:13 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-13 22:10:13 -0700
+
+
+Started GET "/assets/easy_park_logo-dfeb9f856651947e9fe4d8c2ab81c9530fb5c5838d6bef07dfb2a9723b5d889d.png" for ::1 at 2016-04-13 22:10:13 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-13 22:10:13 -0700
+
+
+Started GET "/assets/landing_bg-c58fda715bde5e9d5546965b7de7e81a6bee1b4cef50355022e89ff43c1c810c.jpg" for ::1 at 2016-04-13 22:10:13 -0700
+
+
+Started GET "/assets/easy_park_logo-dfeb9f856651947e9fe4d8c2ab81c9530fb5c5838d6bef07dfb2a9723b5d889d.png" for ::1 at 2016-04-13 22:10:13 -0700
+
+
+Started GET "/" for ::1 at 2016-04-13 22:10:23 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 106ms (Views: 105.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-42cfa411499704b16bdcc18086a55ac39b5afc336972368d809c5397a11e9b6f.css?body=1" for ::1 at 2016-04-13 22:10:23 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-13 22:10:23 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-13 22:10:23 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-13 22:10:23 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-13 22:10:23 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-13 22:10:23 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-13 22:10:23 -0700
+
+
+Started GET "/assets/easy_park_logo-dfeb9f856651947e9fe4d8c2ab81c9530fb5c5838d6bef07dfb2a9723b5d889d.png" for ::1 at 2016-04-13 22:10:23 -0700
+
+
+Started GET "/assets/landing_bg-c58fda715bde5e9d5546965b7de7e81a6bee1b4cef50355022e89ff43c1c810c.jpg" for ::1 at 2016-04-13 22:10:24 -0700
+
+
+Started GET "/" for ::1 at 2016-04-13 22:10:27 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 44ms (Views: 43.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-42cfa411499704b16bdcc18086a55ac39b5afc336972368d809c5397a11e9b6f.css?body=1" for ::1 at 2016-04-13 22:10:27 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-13 22:10:27 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-13 22:10:27 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-13 22:10:27 -0700
+
+
+Started GET "/assets/easy_park_logo-dfeb9f856651947e9fe4d8c2ab81c9530fb5c5838d6bef07dfb2a9723b5d889d.png" for ::1 at 2016-04-13 22:10:27 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-13 22:10:27 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-13 22:10:27 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-13 22:10:27 -0700
+
+
+Started GET "/" for ::1 at 2016-04-13 22:12:08 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 103ms (Views: 101.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-a0bcb475f74c7a9e7fd4e0bd003c198339cccc6d1d6439d84746d3c87b585b0f.css?body=1" for ::1 at 2016-04-13 22:12:09 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-13 22:12:09 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-13 22:12:09 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-13 22:12:09 -0700
+
+
+Started GET "/assets/easy_park_logo-dfeb9f856651947e9fe4d8c2ab81c9530fb5c5838d6bef07dfb2a9723b5d889d.png" for ::1 at 2016-04-13 22:12:09 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-13 22:12:09 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-13 22:12:09 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-13 22:12:09 -0700
+
+
+Started GET "/assets/easy_park_logo-dfeb9f856651947e9fe4d8c2ab81c9530fb5c5838d6bef07dfb2a9723b5d889d.png" for ::1 at 2016-04-13 22:12:09 -0700
+
+
+Started GET "/" for ::1 at 2016-04-13 22:14:17 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 102ms (Views: 101.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-217a7ac4acefff68e8b72596f78a3407b62559868a72d1e6f5c2f6ae3922d083.css?body=1" for ::1 at 2016-04-13 22:14:18 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-13 22:14:18 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-13 22:14:18 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-13 22:14:18 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-13 22:14:18 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-13 22:14:18 -0700
+
+
+Started GET "/assets/easy_park_logo-dfeb9f856651947e9fe4d8c2ab81c9530fb5c5838d6bef07dfb2a9723b5d889d.png" for ::1 at 2016-04-13 22:14:18 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-13 22:14:18 -0700
+
+
+Started GET "/" for ::1 at 2016-04-13 22:14:50 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 109ms (Views: 108.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-13 22:14:51 -0700
+
+
+Started GET "/assets/home.self-0978036318dd52879b484c6cae3271ca3fcf20e5c499bf95f83acd8214779289.css?body=1" for ::1 at 2016-04-13 22:14:51 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-13 22:14:51 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-13 22:14:51 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-13 22:14:51 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-13 22:14:51 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-13 22:14:51 -0700
+
+
+Started GET "/assets/easy_park_logo-dfeb9f856651947e9fe4d8c2ab81c9530fb5c5838d6bef07dfb2a9723b5d889d.png" for ::1 at 2016-04-13 22:14:51 -0700
+
+
+Started GET "/assets/easy_park_logo-dfeb9f856651947e9fe4d8c2ab81c9530fb5c5838d6bef07dfb2a9723b5d889d.png" for ::1 at 2016-04-13 22:14:52 -0700
+
+
+Started GET "/" for ::1 at 2016-04-13 22:14:59 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 151ms (Views: 150.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-13 22:15:00 -0700
+
+
+Started GET "/assets/home.self-74a16c5c4c58ee04b4cee20d583acba5d5b6f4463f61ef7e083e2564cd3217ad.css?body=1" for ::1 at 2016-04-13 22:15:00 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-13 22:15:00 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-13 22:15:00 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-13 22:15:00 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-13 22:15:00 -0700
+
+
+Started GET "/assets/easy_park_logo-dfeb9f856651947e9fe4d8c2ab81c9530fb5c5838d6bef07dfb2a9723b5d889d.png" for ::1 at 2016-04-13 22:15:00 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-13 22:15:00 -0700
+
+
+Started GET "/" for ::1 at 2016-04-13 22:15:11 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 194ms (Views: 193.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-13 22:15:12 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-13 22:15:12 -0700
+
+
+Started GET "/assets/home.self-e56c76d540cf9114252afce9e589259702bd6308b76def438bdbd45f4a72ae8f.css?body=1" for ::1 at 2016-04-13 22:15:12 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-13 22:15:12 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-13 22:15:12 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-13 22:15:12 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-13 22:15:12 -0700
+
+
+Started GET "/assets/easy_park_logo-dfeb9f856651947e9fe4d8c2ab81c9530fb5c5838d6bef07dfb2a9723b5d889d.png" for ::1 at 2016-04-13 22:15:12 -0700

@@ -1,0 +1,17 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#landing_bg {
+	height: 100%;
+	width: 100%;
+	padding-top: 80px;
+	float: center;
+	text-align: center;
+	background-size: contain 100% 100%;
+
+	h1 {
+		font-family: verdana;
+		color: #2c3e50;
+	}
+}
