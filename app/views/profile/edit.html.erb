@@ -1,0 +1,23 @@
+<div id="ProfileWrapper">
+  <%= form_for @current_user, { :url => profile_path } do |f| %>
+
+    <%= f.label :name, "Name: " %>
+	<%= f.text_field :name, :value => @current_user.name %>
+
+
+	<%= f.label :email, "Email: " %>
+	<%= f.text_field :email, :value => @current_user.email %>
+
+	<%= f.label :phone_number, "Phone Number: " %>
+	<%= f.text_field :phone_number, :value => @current_user.phone_number %>
+
+	<%= f.label :home_town, "Hometown: " %>
+	<%= f.text_field :home_town, :value => @current_user.home_town %>
+
+	<%= f.label :description, "Description" %>
+	<%= f.text_field :description, :value => @current_user.description %>
+
+    <%= f.submit "Submit" %>
+    <% end %>
+
+ </div>

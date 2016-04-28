@@ -1,0 +1,15 @@
+<br>
+<br>
+<div id="profile">
+<h1>Welcome to your Profile</h1>
+<p>Name: <%= current_user.name %></p>
+<p>Email: <%= if !current_user.email then "N/A" end  %></p>
+<p>Phone Number: <%= if !current_user.phone_number then "N/A" end  %></p>
+<p>Hometown: <%= if !current_user.home_town then "N/A" end  %></p>
+<p>Description: <%= if !current_user.description then "N/A" end  %></p>
+
+</div>
+
+<div id = "edit_profile">
+<button type="button">Edit your profile</button>
+</div>

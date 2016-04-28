@@ -5,6 +5,10 @@ Rails.application.routes.draw do
 
   resources :sessions, only: [:create, :destroy]
   get '/index' => 'home#index', as: 'index'
+  get '/profile' => 'profile#profile', as: 'profile'
+  get '/profile/edit' => 'profile#edit', as: 'edit_profile'
+  post '/profile/edit' => 'profile#update'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
