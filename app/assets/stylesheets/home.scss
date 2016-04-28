@@ -3,15 +3,16 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 #landing_bg {
-	height: 100%;
+	min-height: 100%;
 	width: 100%;
-	padding-top: 80px;
-	float: center;
 	text-align: center;
-	background-size: contain 100% 100%;
+	background: url(landing_bg.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 
-	h1 {
-		font-family: verdana;
-		color: #2c3e50;
-	}
+#logo {
+	padding-top: 5%;
 }

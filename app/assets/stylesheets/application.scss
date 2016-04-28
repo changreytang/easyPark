@@ -1,0 +1,130 @@
+// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "home";
+@import "sessions";
+
+img {
+	background-color: transparent;
+	border: none;
+}
+
+html, body {
+   height: 100%;
+   width : 100%;
+   padding: 0;
+   background: #efefef;
+}
+
+header {
+    background: image-url("index_bg.jpg") no-repeat center center #1a1a1a;
+    background-size: cover;
+    height: 80%;
+    min-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    border-bottom: 4px solid #2c3e50;
+
+    .cover {
+        height: 80%;
+    }
+}
+
+input[type=submit] {
+    width: 300px;
+    height: 55px;
+    background: #2e8ece;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #c0c0c0;
+    border: 0px;
+    cursor: pointer;
+    margin-top: 10px;
+
+    &:hover {
+        border: 0px;
+        color: #efefef;
+        background: #2c3e50;
+    }
+}
+
+nav {
+    width: 100%;
+    min-width: 480px;
+    height: 64px;
+    background-repeat: repeat-x;
+    background-image: image-url("header_bg.png");
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    z-index: 999999;
+
+    .cover {
+        width: 100%;
+        max-width: 940px;
+        min-width: 480px;
+
+        h1 {
+            float: left;
+            margin: 0px;
+            padding-left: 20px;
+            font-size: 20px;
+            padding-top: 20px;
+            height: 60px;
+        }
+
+        #navbar {
+            float: right;
+            margin: 0px;
+            padding: 0px;
+            height: 60px;
+            font-size: 0.8em;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-family: sans-serif;
+
+            li:last-child {
+                margin: 0px 0px 0px 10px;
+
+                a, a:visited {
+                    font-weight: bold;
+                }
+
+                a.active, a.active:hover {
+                    color: #2c3e50;
+                    cursor: default;
+                    background: none;
+                }
+            }
+
+            li {
+                margin: 0px 10px 0px 10px;
+                list-style: none;
+                float: left;
+                line-height: 60px;
+                display: inline;
+
+                a, a:visited {
+                    text-decoration: none;
+                    color: #3a3a3a;
+                    letter-spacing: 1px;
+                    display: block;
+                    padding: 0px 10px 0px 10px;
+
+                    &:hover {
+                        background: #2c3e50;
+                        color: #ffffff;
+                    }
+                }
+
+                a.active, a.active:hover {
+                    color: #2c3e50;
+                    cursor: default;
+                    background: none;
+                }
+            }
+        }
+    }
+}

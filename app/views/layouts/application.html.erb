@@ -7,14 +7,19 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<div>
-  <% if current_user %>
-    Signed in as <strong><%= current_user.name %></strong>!
-    <%= link_to "Sign out", signout_path, id: "sign_out" %>
-  <% else %>
-    <%= link_to "Sign in with Facebook", "/auth/facebook", id: "sign_in" %>
-  <% end %>
-</div>
+<% if current_user %>
+  <nav>
+    <div class="cover">
+      <h1>
+        Hello, <strong><%= current_user.name %></strong>!
+      </h1>
+      <ul id="navbar">
+        <li><%= link_to "Sign out", signout_path, id: "sign_out" %></li>
+      </ul>
+    </div>
+  </nav>
+<% end %>
+
 <%= yield %>
 
 </body>
