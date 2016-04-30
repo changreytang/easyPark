@@ -8,6 +8,10 @@ Rails.application.routes.draw do
   get '/listings/new' => 'listings#new', as: 'new_listing'
   post '/listings' => 'listings#create'
   get '/index' => 'home#index', as: 'index'
+  get '/profile' => 'profile#profile', as: 'profile'
+  get '/profile/edit' => 'profile#edit', as: 'edit_profile'
+  patch '/profile' => 'profile#update'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

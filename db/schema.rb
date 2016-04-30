@@ -11,6 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20160428050115) do
 
   create_table "listings", force: :cascade do |t|
@@ -30,6 +31,9 @@ ActiveRecord::Schema.define(version: 20160428050115) do
 
   add_index "listings", ["user_id", "created_at"], name: "index_listings_on_user_id_and_created_at"
   add_index "listings", ["user_id"], name: "index_listings_on_user_id"
+=======
+ActiveRecord::Schema.define(version: 20160428054745) do
+>>>>>>> a8c01087bfbc73cee6ee84fa6bbfde0638328ab6
 
   create_table "users", force: :cascade do |t|
     t.string   "provider"
@@ -39,6 +43,10 @@ ActiveRecord::Schema.define(version: 20160428050115) do
     t.datetime "oauth_expires_at"
     t.datetime "created_at",       null: false
     t.datetime "updated_at",       null: false
+    t.string   "email"
+    t.string   "phone_number"
+    t.text     "description"
+    t.text     "home_town"
   end
 
 end
