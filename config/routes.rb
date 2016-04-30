@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   get '/index' => 'home#index', as: 'index'
   get '/profile' => 'profile#profile', as: 'profile'
   get '/profile/edit' => 'profile#edit', as: 'edit_profile'
-  post '/profile/edit' => 'profile#update'
+  patch '/profile' => 'profile#update'
 
 
   # The priority is based upon order of creation: first created -> highest priority.

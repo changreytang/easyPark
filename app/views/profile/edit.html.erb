@@ -17,7 +17,7 @@
 	<%= f.text_field :home_town, :value => @current_user.home_town %>
 
 	<%= f.label :description, "Description" %>
-	<%= f.text_field :description, :value => @current_user.description %>
+	<%= f.text_area :description, :value => @current_user.description %>
 
     <%= f.submit "Update" %>
     <% end %>
