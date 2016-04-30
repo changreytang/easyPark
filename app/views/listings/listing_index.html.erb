@@ -1,13 +1,32 @@
-<% @listing.each do |data| %>
-  <tr>
-    <td><%= data.description %></td>
-    <td><%= data.sold %></td>
-    <td><%= data.price %></td>
-    <td><%= data.address %></td>
-    <td><%= data.city %></td>
-    <td><%= data.state %></td>
-    <td><%= data.zipcode %></td>
-    <td><%= data.start_date %></td>
-    <td><%= data.end_date %></td>
-  </tr>
-<% end %>
+<div id="index_wrapper">
+    <table>
+        <thead>
+            <tr>
+                <th>Description</th>
+                <th>Status</th>
+                <th>Price</th>
+                <th>State</th>
+                <th>City</th>
+                <th>Zipcode</th>
+                <th>Address</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% @listing.each do |data| %>
+                  <tr>
+                    <td><%= data.description %></td>
+                    <td><%= data.sold ? "Sold" : "Not Sold" %></td>
+                    <td><%= data.price %></td>
+                    <td><%= data.state %></td>
+                    <td><%= data.city %></td>
+                    <td><%= data.zipcode %></td>
+                    <td><%= data.address %></td>
+                    <td><%= data.start_date %></td>
+                    <td><%= data.end_date %></td>
+              </tr>
+            <% end %>
+        </tbody>
+    </table>
+</div>

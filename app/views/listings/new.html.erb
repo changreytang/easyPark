@@ -1,20 +1,21 @@
-<div style="margin-top: 100px;"></div>
-<%= form_for [@user, @listing], url: {action: "create"} do |f| %>
-	<%= f.label :description, "Description" %>
-	<%= f.text_area :description %>
-	<%= f.label :price, "Price" %>
-	<%= f.text_field :price %>
-	<%= f.label :address, "Address" %>
-	<%= f.text_field :address %>
-	<%= f.label :city, "City" %>
-	<%= f.text_field :city %>
-	<%= f.label :state, "State" %>
-	<%= f.text_field :state %>
-	<%= f.label :zipcode, "Zip Code" %>
-	<%= f.text_field :zipcode %>
-	<%= f.label :start_date, "Start Date" %>
-	<%= f.datetime_select :start_date, :ampm => true, :minute_step => 15 %>
-	<%= f.label :end_date, "End Date" %>
-	<%= f.datetime_select :end_date, :ampm => true, :minute_step => 15 %>
-	<%= f.submit "Submit" %>
- <% end %>
+<div id="form_wrapper">
+	<%= form_for [@user, @listing], url: {action: "create"} do |f| %>
+		<%= f.label :description, "Description" %>
+		<%= f.text_area :description %>
+		<%= f.label :price, "Price" %>
+		<%= f.text_field :price %>
+		<%= f.label :address, "Address" %>
+		<%= f.text_field :address %>
+		<%= f.label :city, "City" %>
+		<%= f.text_field :city %>
+		<%= f.label :state, "State" %>
+		<%= f.text_field :state %>
+		<%= f.label :zipcode, "Zip Code" %>
+		<%= f.text_field :zipcode %>
+		<%= f.label :start_date, "Start Date" %>
+		<%= f.datetime_select :start_date, :ampm => true, :minute_step => 15 %>
+		<%= f.label :end_date, "End Date" %>
+		<%= f.datetime_select :end_date, :ampm => true, :minute_step => 15 %>
+		<%= f.submit "Submit" %>
+	 <% end %>
+ </div>
