@@ -4,6 +4,9 @@ Rails.application.routes.draw do
   get 'signout', to: 'sessions#destroy', as: 'signout'
 
   resources :sessions, only: [:create, :destroy]
+  get '/listings/mylistings' => 'listings#listing_index', as: 'listing_index'
+  get '/listings/new' => 'listings#new', as: 'new_listing'
+  post '/listings' => 'listings#create'
   get '/index' => 'home#index', as: 'index'
 
   # The priority is based upon order of creation: first created -> highest priority.

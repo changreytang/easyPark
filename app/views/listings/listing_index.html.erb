@@ -1,0 +1,13 @@
+<% @listing.each do |data| %>
+  <tr>
+    <td><%= data.description %></td>
+    <td><%= data.sold %></td>
+    <td><%= data.price %></td>
+    <td><%= data.address %></td>
+    <td><%= data.city %></td>
+    <td><%= data.state %></td>
+    <td><%= data.zipcode %></td>
+    <td><%= data.start_date %></td>
+    <td><%= data.end_date %></td>
+  </tr>
+<% end %>
