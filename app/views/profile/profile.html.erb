@@ -1,16 +1,11 @@
-<br>
-<br>
-
 <div id="profile">
-<h1>Welcome to your Profile</h1>
-<p>Name: <%= current_user.name %></p>
-<p>Email: <%= if !current_user.email then "N/A" else current_user.email end  %></p>
-<p>Phone Number: <%= if !current_user.phone_number then "N/A" else current_user.phone_number end  %></p>
-<p>Hometown: <%= if !current_user.home_town then "N/A" else current_user.home_town end  %></p>
-<p>Description: <%= if !current_user.description then "N/A" else current_user.description end  %></p>
-
+	<h1>[ Welcome to your Profile ]</h1>
+	<p><b>Name:</b> <%= current_user.name %></p>
+	<p><b>Email:</b> <%= if !current_user.email then "N/A" else current_user.email end  %></p>
+	<p><b>Phone Number:</b> <%= if !current_user.phone_number then "N/A" else current_user.phone_number end  %></p>
+	<p><b>Hometown:</b> <%= if !current_user.home_town then "N/A" else current_user.home_town end  %></p>
+	<p><b>Description:</b> <%= if !current_user.description then "N/A" else current_user.description end  %></p>
 </div>
-
 <div id = "edit_profile">
-<%= button_to "Edit Profile", edit_profile_path, id: "editprofile", :method => :get %>
+	<%= button_to "Edit Profile", edit_profile_path, id: "editprofile", :method => :get %>
 </div>

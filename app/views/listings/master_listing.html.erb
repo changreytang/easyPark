@@ -1,0 +1,32 @@
+<div id="index_wrapper">
+    <table>
+        <thead>
+            <tr>
+                <th>Status</th>
+                <th>Price</th>
+                <th>State</th>
+                <th>City</th>
+                <th>Zipcode</th>
+                <th>Address</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <% @listing.each do |data| %>
+                  <tr>
+                    <td><%= data.sold ? "Sold" : "Not Sold" %></td>
+                    <td><%= data.price %></td>
+                    <td><%= data.state %></td>
+                    <td><%= data.city %></td>
+                    <td><%= data.zipcode %></td>
+                    <td><%= data.address %></td>
+                    <td><%= data.start_date %></td>
+                    <td><%= data.end_date %></td>
+                    <td><%= link_to "More Info", show_listing_path(:id => data.id) %></td>
+              </tr>
+            <% end %>
+        </tbody>
+    </table>
+</div>

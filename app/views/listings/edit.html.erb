@@ -1,0 +1,21 @@
+<div id="form_wrapper">
+	<%= form_for @listing, { :url => edit_listing_path } do |f| %>
+		<%= f.label :description, "Description" %>
+		<%= f.text_area :description, :value => @listing.description %>
+		<%= f.label :price, "Price" %>
+		<%= f.text_field :price, :value => @listing.price %>
+		<%= f.label :address, "Address" %>
+		<%= f.text_field :address, :value => @listing.address %>
+		<%= f.label :city, "City" %>
+		<%= f.text_field :city, :value => @listing.city %>
+		<%= f.label :state, "State" %>
+		<%= f.text_field :state, :value => @listing.state %>
+		<%= f.label :zipcode, "Zip Code" %>
+		<%= f.text_field :zipcode, :value => @listing.zipcode %>
+		<%= f.label :start_date, "Start Date" %>
+		<%= f.datetime_select :start_date, :ampm => true, :minute_step => 15, :value => @listing.start_date %>
+		<%= f.label :end_date, "End Date" %>
+		<%= f.datetime_select :end_date, :ampm => true, :minute_step => 15, :value => @listing.end_date %>
+    	<%= f.submit "Update" %>
+    <% end %>
+ </div>

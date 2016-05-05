@@ -1,0 +1,8 @@
+<div style="margin-top: 70px; text-align: center;">
+	<b>SELLER:</b> <%= @user.name %></br></br>
+	<b>CONTACT INFO:</b> <%= "[ " + @user.email + " ] [ " + @user.phone_number + " ]" %></br></br>
+	<b>DESCRIPTION:</b> <%= @listing.description %></br></br>
+	<b>STATUS:</b>  <%= @listing.sold ? "Sold" : "Not Sold" %></br></br>
+	<b>PRICE:</b> <%= @listing.price %></br></br>
+	<b>ADDRESS:</b> <%= @listing.address + " " + @listing.city + ", " + @listing.state + " " + @listing.zipcode %>
+</div>

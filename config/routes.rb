@@ -5,8 +5,13 @@ Rails.application.routes.draw do
 
   resources :sessions, only: [:create, :destroy]
   get '/listings/mylistings' => 'listings#listing_index', as: 'listing_index'
+  get '/listings' => 'listings#master_listing', as: 'master_listing'
   get '/listings/new' => 'listings#new', as: 'new_listing'
   post '/listings' => 'listings#create'
+  get 'listings/:id' => 'listings#show', as: 'show_listing'
+  get 'listings/:id/edit' => 'listings#edit', as: 'edit_listing'
+  patch 'listings/:id/edit' => 'listings#update'
+  delete 'listings/:id' => 'listings#destroy', as: 'destroy_listing'
   get '/index' => 'home#index', as: 'index'
   get '/profile' => 'profile#profile', as: 'profile'
   get '/profile/edit' => 'profile#edit', as: 'edit_profile'
