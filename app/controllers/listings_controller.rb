@@ -9,7 +9,23 @@ class ListingsController < ApplicationController
   	@listing = Listing.all
   end
 
-  def index
+  def buy
+    @listing = Listing.find(params[:id])
+    @user = User.find(@listing.user_id)
+    if(current_user.balance < @listing.price)
+      flash[:notice] = "NOT ENUFF MOOLAH"
+      redirect_to show_listing_path(:id => @listing.id)
+    else
+      current_user.balance = current_user.balance - @listing.price
+      @user.balance = @user.balance + @listing.price
+      @listing.sold = true
+      @listing.buyer_id = current_user.id
+      @listing.save
+      current_user.save
+      @user.save
+      flash[:notice] = "SUCCESSFUL TRANSACTION"
+      redirect_to show_listing_path(:id => @listing.id)
+    end
   end
 
   def show
@@ -22,9 +38,9 @@ class ListingsController < ApplicationController
   end
 
   def update
-	@listing = Listing.find(params[:id])
-	@listing.update(listing_params)
-	redirect_to listing_index_path
+  	@listing = Listing.find(params[:id])
+  	@listing.update(listing_params)
+  	redirect_to listing_index_path
   end
 
   def new

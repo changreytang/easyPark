@@ -1,3 +1,4 @@
+<div id="created_listings">LISTINGS CREATED BY ME</div>
 <div id="index_wrapper">
     <table>
         <thead>
@@ -17,7 +18,7 @@
         </thead>
         <tbody>
             <% @listing.each do |data| %>
-                  <tr>
+                <tr>
                     <td><%= data.sold ? "Sold" : "Not Sold" %></td>
                     <td><%= data.price %></td>
                     <td><%= data.state %></td>
@@ -27,9 +28,46 @@
                     <td><%= data.start_date %></td>
                     <td><%= data.end_date %></td>
                     <td><%= link_to "More Info", show_listing_path(:id => data.id) %></td>
-                    <td><%= link_to "Edit", edit_listing_path(:id => data.id) %></td>
-                    <td><%= link_to "Delete", destroy_listing_path(:id => data.id), :method => :delete %></td>
-              </tr>
+                    <% if !data.sold %>
+                        <td><%= link_to "Edit", edit_listing_path(:id => data.id) %></td>
+                        <td><%= link_to "Delete", destroy_listing_path(:id => data.id), :method => :delete %></td>
+                    <% end %>
+                </tr>
+            <% end %>
+        </tbody>
+    </table>
+</div>
+<div id="bought_listings">LISTINGS BOUGHT BY ME</div>
+<div id="index_wrapper">
+    <table>
+        <thead>
+            <tr>
+                <th>Status</th>
+                <th>Price</th>
+                <th>State</th>
+                <th>City</th>
+                <th>Zipcode</th>
+                <th>Address</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <% @listing.each do |data| %>
+                <% if data.buyer_id == current_user.id %>
+                    <tr>
+                        <td><%= data.sold ? "Sold" : "Not Sold" %></td>
+                        <td><%= data.price %></td>
+                        <td><%= data.state %></td>
+                        <td><%= data.city %></td>
+                        <td><%= data.zipcode %></td>
+                        <td><%= data.address %></td>
+                        <td><%= data.start_date %></td>
+                        <td><%= data.end_date %></td>
+                        <td><%= link_to "More Info", show_listing_path(:id => data.id) %></td>
+                    </tr>
+                <% end %>
             <% end %>
         </tbody>
     </table>

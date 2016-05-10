@@ -8828,13 +8828,28 @@ button.close {
   text-align: center;
 }
 
-/* line 8, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 5, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/listings.scss */
+#created_listings {
+  text-align: center;
+  margin-top: 70px;
+  font-size: 1.2em;
+  color: #2c3e50;
+}
+
+/* line 12, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/listings.scss */
+#bought_listings {
+  text-align: center;
+  font-size: 1.2em;
+  color: #2c3e50;
+}
+
+/* line 9, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 img {
   background-color: transparent;
   border: none;
 }
 
-/* line 13, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 14, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 html, body {
   height: 100%;
   width: 100%;
@@ -8842,7 +8857,7 @@ html, body {
   background: #efefef;
 }
 
-/* line 20, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 21, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 header {
   background: url(/assets/index_bg-40e1cfb018c2e4b3e64b2ec589c1546907c36fe7c17942d61b5ef13d2f9b2cd1.jpg) no-repeat center center #1a1a1a;
   background-size: cover;
@@ -8852,12 +8867,12 @@ header {
   overflow: hidden;
   border-bottom: 4px solid #2c3e50;
 }
-/* line 29, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 30, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 header .cover {
   height: 80%;
 }
 
-/* line 34, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 35, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 input[type=submit] {
   width: 300px;
   height: 55px;
@@ -8871,14 +8886,14 @@ input[type=submit] {
   cursor: pointer;
   margin-top: 10px;
 }
-/* line 47, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 48, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 input[type=submit]:hover {
   border: 0px;
   color: white;
   background: #2c3e50;
 }
 
-/* line 54, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 55, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 nav {
   width: 100%;
   min-width: 480px;
@@ -8890,12 +8905,12 @@ nav {
   overflow: hidden;
   z-index: 999999;
 }
-/* line 65, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 66, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 nav .cover {
   width: 100%;
   min-width: 480px;
 }
-/* line 69, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 70, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 nav .cover h1 {
   float: left;
   margin: 0px;
@@ -8904,7 +8919,7 @@ nav .cover h1 {
   padding-top: 20px;
   height: 60px;
 }
-/* line 78, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 79, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 nav .cover #navbar {
   float: right;
   margin: 0px 120px 0px 0px;
@@ -8915,21 +8930,21 @@ nav .cover #navbar {
   text-transform: uppercase;
   font-family: sans-serif;
 }
-/* line 88, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 89, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 nav .cover #navbar li:last-child {
   margin: 0px 0px 0px 10px;
 }
-/* line 91, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 92, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 nav .cover #navbar li:last-child a, nav .cover #navbar li:last-child a:visited {
   font-weight: bold;
 }
-/* line 95, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 96, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 nav .cover #navbar li:last-child a.active, nav .cover #navbar li:last-child a.active:hover {
   color: #2c3e50;
   cursor: default;
   background: none;
 }
-/* line 102, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 103, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 nav .cover #navbar li {
   margin: 0px 10px 0px 10px;
   list-style: none;
@@ -8937,7 +8952,7 @@ nav .cover #navbar li {
   line-height: 60px;
   display: inline;
 }
-/* line 109, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 110, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 nav .cover #navbar li a, nav .cover #navbar li a:visited {
   text-decoration: none;
   color: #3a3a3a;
@@ -8945,19 +8960,19 @@ nav .cover #navbar li a, nav .cover #navbar li a:visited {
   display: block;
   padding: 0px 10px 0px 10px;
 }
-/* line 116, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 117, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 nav .cover #navbar li a:hover, nav .cover #navbar li a:visited:hover {
   background: #2c3e50;
   color: #ffffff;
 }
-/* line 122, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 123, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 nav .cover #navbar li a.active, nav .cover #navbar li a.active:hover {
   color: #2c3e50;
   cursor: default;
   background: none;
 }
 
-/* line 132, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 133, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #form_wrapper {
   width: 640px;
   padding: 60px 0px 60px 0px;
@@ -8965,71 +8980,71 @@ nav .cover #navbar li a.active, nav .cover #navbar li a.active:hover {
   clear: both;
   float: middle;
 }
-/* line 139, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 140, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #form_wrapper form {
   text-align: left;
   width: 640px;
 }
-/* line 143, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 144, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #form_wrapper form #stageleft {
   float: left;
   width: 300px;
   margin: 0px 15px 0px 0px;
 }
-/* line 148, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 149, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #form_wrapper form #stageleft input, #form_wrapper form #stageleft label {
   width: 298px;
 }
-/* line 153, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 154, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #form_wrapper form #stageright {
   float: left;
   width: 300px;
   margin: 0px 0px 0px 15px;
 }
-/* line 158, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 159, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #form_wrapper form #stageright input, #form_wrapper form #stageright label {
   width: 298px;
 }
-/* line 163, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 164, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #form_wrapper form #stageone {
   float: left;
   width: 190px;
   margin: 0px 15px 0px 0px;
 }
-/* line 168, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 169, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #form_wrapper form #stageone input, #form_wrapper form #stageone label {
   width: 188px;
 }
-/* line 173, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 174, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #form_wrapper form #stagetwo {
   float: left;
   width: 190px;
   margin: 0px 15px 0px 15px;
 }
-/* line 178, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 179, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #form_wrapper form #stagetwo input, #form_wrapper form #stagetwo label {
   width: 188px;
 }
-/* line 183, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 184, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #form_wrapper form #stagethree {
   float: left;
   width: 190px;
   margin: 0px 0px 0px 15px;
 }
-/* line 188, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 189, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #form_wrapper form #stagethree input, #form_wrapper form #stagethree label {
   width: 188px;
 }
-/* line 193, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 194, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #form_wrapper form #other {
   float: left;
 }
-/* line 196, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 197, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #form_wrapper form #other input {
   width: 150px;
   height: 25px;
 }
-/* line 201, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 202, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #form_wrapper form #other label {
   float: right;
   margin-top: 5px;
@@ -9037,7 +9052,7 @@ nav .cover #navbar li a.active, nav .cover #navbar li a.active:hover {
   width: 10px;
   font-size: 0.7em;
 }
-/* line 210, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 211, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #form_wrapper form label {
   display: inline-block;
   font-weight: 600;
@@ -9050,7 +9065,7 @@ nav .cover #navbar li a.active, nav .cover #navbar li a.active:hover {
   color: #999999;
   text-align: left;
 }
-/* line 223, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 224, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #form_wrapper form label.checked {
   display: none;
   background: none;
@@ -9061,7 +9076,7 @@ nav .cover #navbar li a.active, nav .cover #navbar li a.active:hover {
   padding: 0px;
   text-indent: -5000px;
 }
-/* line 234, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 235, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #form_wrapper form input[type=submit] {
   float: right;
   width: 150px;
@@ -9076,13 +9091,13 @@ nav .cover #navbar li a.active, nav .cover #navbar li a.active:hover {
   cursor: pointer;
   margin-top: 10px;
 }
-/* line 248, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 249, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #form_wrapper form input[type=submit]:hover {
   border: 0px;
   color: #efefef;
   background: #2c3e50;
 }
-/* line 255, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 256, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #form_wrapper form input, #form_wrapper form textarea {
   overflow: hidden;
   display: block;
@@ -9097,13 +9112,13 @@ nav .cover #navbar li a.active, nav .cover #navbar li a.active:hover {
   border-radius: 3px;
   width: 628px;
 }
-/* line 270, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 271, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #form_wrapper form input {
   height: 30px;
   padding: 0px 5px 0px 5px;
   margin: 0px;
 }
-/* line 276, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 277, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #form_wrapper form #membership_form_class_name_freshman {
   width: 25px;
   height: 25px;
@@ -9114,52 +9129,52 @@ nav .cover #navbar li a.active, nav .cover #navbar li a.active:hover {
   top: -1px;
   overflow: hidden;
 }
-/* line 287, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 288, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #form_wrapper form #checkbox {
   margin-top: 5px;
 }
-/* line 290, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 291, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #form_wrapper form #checkbox label {
   float: right;
   margin-top: 5px;
   width: 600px;
   font-size: 0.7em;
 }
-/* line 298, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 299, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #form_wrapper form textarea {
   height: 100px;
   padding: 5px 5px;
   margin: 0px 0px 0px;
   max-width: 628px;
 }
-/* line 306, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 307, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #form_wrapper form input:focus, #form_wrapper form textarea:focus {
   outline: none;
   border: 1px solid rgba(39, 197, 244, 0.8);
   -webkit-box-shadow: 0 0 8px rgba(39, 197, 244, 0.6);
   box-shadow: 0 0 8px rgba(39, 197, 244, 0.6);
 }
-/* line 313, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 314, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #form_wrapper form input:hover, #form_wrapper form textarea:hover {
   border: 1px solid rgba(39, 197, 244, 0.8);
 }
-/* line 317, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 318, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #form_wrapper form input.error, #form_wrapper form textarea.error {
   background: white;
   border: #ff9999 solid 1px;
 }
-/* line 322, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 323, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #form_wrapper form input.error:hover, #form_wrapper form textarea.error:hover {
   border: 1px solid #ff3333;
 }
-/* line 326, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 327, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #form_wrapper form input.error:focus, #form_wrapper form textarea.error:focus {
   outline: none;
   border: 1px solid #ff3333;
   -webkit-box-shadow: 0 0 8px #ff9999;
   box-shadow: 0 0 8px #ff9999;
 }
-/* line 333, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 334, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #form_wrapper form label.error {
   width: auto;
   float: left;
@@ -9167,18 +9182,18 @@ nav .cover #navbar li a.active, nav .cover #navbar li a.active:hover {
   color: red;
   margin: 0px 0px -2px;
 }
-/* line 342, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 343, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #form_wrapper em {
   color: #01b3b3;
 }
-/* line 346, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 347, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #form_wrapper .requiredNote {
   margin: 20px 0px 20px;
   color: #333333;
   font-weight: bold;
 }
 
-/* line 353, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 354, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #index_wrapper {
   text-align: left;
   width: 90%;
@@ -9187,7 +9202,7 @@ nav .cover #navbar li a.active, nav .cover #navbar li a.active:hover {
   margin-top: 70px;
   font-family: sans-serif;
 }
-/* line 361, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 362, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #index_wrapper table {
   width: 100%;
   max-width: 100%;
@@ -9196,7 +9211,7 @@ nav .cover #navbar li a.active, nav .cover #navbar li a.active:hover {
   border-collapse: collapse;
   margin-bottom: 30px;
 }
-/* line 369, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 370, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #index_wrapper table thead tr th {
   background: none;
   font-size: 1.1em;
@@ -9207,12 +9222,12 @@ nav .cover #navbar li a.active, nav .cover #navbar li a.active:hover {
   padding: 0px 0px 3px 0px;
   font-weight: 600;
 }
-/* line 380, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 381, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #index_wrapper table tbody tr td {
   padding: 10px 0px 10px 0px;
   vertical-align: middle;
 }
-/* line 385, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 386, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #index_wrapper table input[type=submit] {
   float: right;
   width: auto;
@@ -9226,7 +9241,7 @@ nav .cover #navbar li a.active, nav .cover #navbar li a.active:hover {
   border: 0px;
   cursor: pointer;
 }
-/* line 398, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
+/* line 399, /Users/changreytang/Documents/easyPark/app/assets/stylesheets/application.scss */
 #index_wrapper table input[type=submit]:hover {
   border: 0px;
   color: #efefef;

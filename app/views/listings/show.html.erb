@@ -1,9 +1,15 @@
 <div style="margin-top: 70px; text-align: center;">
+	<b><%= notice %></b></br></br>
 	<b>SELLER:</b> <%= @user.name %></br></br>
 	<b>EMAIL: </b><%= if !@user.email then "N/A" else current_user.email end %></br>
 	<b>PHONE NUMBER: </b><%= if !@user.phone_number then "N/A" else current_user.phone_number end  %></br></br>
 	<b>DESCRIPTION:</b> <%= @listing.description %></br></br>
 	<b>STATUS:</b>  <%= @listing.sold ? "Sold" : "Not Sold" %></br></br>
 	<b>PRICE:</b> <%= @listing.price %></br></br>
-	<b>ADDRESS:</b> <%= @listing.address + " " + @listing.city + ", " + @listing.state + " " + @listing.zipcode %>
+	<b>ADDRESS:</b> <%= @listing.address + " " + @listing.city + ", " + @listing.state + " " + @listing.zipcode %></br></br>
+	<% if @listing.sold %>
+		<%= "Listing sold to: " + User.find(@listing.buyer_id).name %>
+	<% else %>
+		<%= button_to "Buy Listing", buy_listing_path(:id => @listing.id), :method => :get %>
+	<% end %>
 </div>

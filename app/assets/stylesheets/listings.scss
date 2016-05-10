@@ -1,3 +1,16 @@
 // Place all the styles related to the Listings controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+#created_listings {
+	text-align: center;
+	margin-top: 70px;
+	font-size: 1.2em;
+	color: #2c3e50;
+}
+
+#bought_listings {
+	text-align: center;
+	font-size: 1.2em;
+	color: #2c3e50;
+}

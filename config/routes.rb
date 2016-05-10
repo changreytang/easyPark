@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   get 'listings/:id' => 'listings#show', as: 'show_listing'
   get 'listings/:id/edit' => 'listings#edit', as: 'edit_listing'
   patch 'listings/:id/edit' => 'listings#update'
+  get 'listings/:id/buy' => 'listings#buy', as: 'buy_listing'
   delete 'listings/:id' => 'listings#destroy', as: 'destroy_listing'
   get '/index' => 'home#index', as: 'index'
   get '/profile' => 'profile#profile', as: 'profile'
