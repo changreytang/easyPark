@@ -3,6 +3,7 @@ class ListingsController < ApplicationController
 
   def listing_index
   	@listing = current_user.listings.all
+    @all_listings = Listing.all
   end
 
   def master_listing
