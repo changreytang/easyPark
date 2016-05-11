@@ -16,12 +16,13 @@ class ListingsController < ApplicationController
       flash[:notice] = "NOT ENUFF MOOLAH"
       redirect_to show_listing_path(:id => @listing.id)
     else
-      current_user.balance = current_user.balance - @listing.price
+      @current = User.find(current_user.id)
+      @current.balance = @current.balance - @listing.price
       @user.balance = @user.balance + @listing.price
       @listing.sold = true
       @listing.buyer_id = current_user.id
       @listing.save
-      current_user.save
+      @current.save
       @user.save
       flash[:notice] = "SUCCESSFUL TRANSACTION"
       redirect_to show_listing_path(:id => @listing.id)
