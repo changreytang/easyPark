@@ -1,0 +1,8 @@
+<div id="profile">
+  <h1>[ <%= @user.name %>'s Profile ]</h1>
+  <p><b>Name:</b> <%= @user.name %></p>
+  <p><b>Email:</b> <%= if !@user.email then "N/A" else @user.email end  %></p>
+  <p><b>Phone Number:</b> <%= if !@user.phone_number then "N/A" else @user.phone_number end  %></p>
+  <p><b>Hometown:</b> <%= if !@user.home_town then "N/A" else @user.home_town end  %></p>
+  <p><b>Description:</b> <%= if !@user.description then "N/A" else @user.description end  %></p>
+</div>

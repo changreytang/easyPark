@@ -13,6 +13,10 @@ class ProfileController < ApplicationController
 	redirect_to profile_path
   end
 
+  def view_profile
+    @listing = Listing.find(params[:id])
+    @user = User.find(@listing.user_id)
+  end
  private
 
   def user_params
