@@ -20834,3 +20834,919 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-05-09 18:10:53 -0700
+
+
+Started GET "/" for ::1 at 2016-05-10 21:45:50 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (9.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#login as HTML
+  Rendered home/login.html.erb within layouts/application (871.7ms)
+  [1m[35mUser Load (11.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 1536ms (Views: 1461.6ms | ActiveRecord: 11.8ms)
+
+
+Started GET "/assets/application.self-d75f4ea3516a73283a73ce66ae061d7e6fefeb06cf58f1a1daebe6491d47f1d6.css?body=1" for ::1 at 2016-05-10 21:45:54 -0700
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-05-10 21:45:54 -0700
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-05-10 21:45:54 -0700
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-05-10 21:45:54 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-10 21:45:54 -0700
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-05-10 21:45:54 -0700
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-05-10 21:45:54 -0700
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-05-10 21:45:54 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-05-10 21:45:54 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-05-10 21:45:54 -0700
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-05-10 21:45:54 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-05-10 21:45:54 -0700
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-05-10 21:45:54 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-05-10 21:45:54 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-10 21:45:54 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-10 21:45:54 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-10 21:45:54 -0700
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-05-10 21:45:54 -0700
+
+
+Started GET "/assets/listings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-10 21:45:54 -0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-05-10 21:45:54 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-10 21:45:54 -0700
+
+
+Started GET "/assets/landing_bg.jpg" for ::1 at 2016-05-10 21:45:54 -0700
+
+
+Started GET "/index" for ::1 at 2016-05-10 21:45:57 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 90ms (Views: 89.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for ::1 at 2016-05-10 21:45:59 -0700
+Processing by ListingsController#master_listing as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mListing Load (9.6ms)[0m  [1mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/master_listing.html.erb within layouts/application (42.7ms)
+Completed 200 OK in 227ms (Views: 195.1ms | ActiveRecord: 10.4ms)
+
+
+Started GET "/assets/application.self-d75f4ea3516a73283a73ce66ae061d7e6fefeb06cf58f1a1daebe6491d47f1d6.css?body=1" for ::1 at 2016-05-10 21:46:00 -0700
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-05-10 21:46:00 -0700
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-05-10 21:46:00 -0700
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-05-10 21:46:00 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-10 21:46:00 -0700
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-05-10 21:46:00 -0700
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-05-10 21:46:00 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-05-10 21:46:00 -0700
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-05-10 21:46:00 -0700
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-05-10 21:46:00 -0700
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-05-10 21:46:00 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-05-10 21:46:00 -0700
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-05-10 21:46:00 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-05-10 21:46:00 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-05-10 21:46:00 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-10 21:46:00 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-10 21:46:00 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-10 21:46:00 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-10 21:46:00 -0700
+
+
+Started GET "/assets/listings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-10 21:46:00 -0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-05-10 21:46:00 -0700
+
+
+Started GET "/listings/4" for ::1 at 2016-05-10 21:46:05 -0700
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mListing Load (0.2ms)[0m  [1mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered listings/show.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 219ms (Views: 214.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/profile" for ::1 at 2016-05-10 21:46:10 -0700
+Processing by ProfileController#profile as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered profile/profile.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 120ms (Views: 117.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/index" for ::1 at 2016-05-10 21:46:12 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 88ms (Views: 86.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for ::1 at 2016-05-10 21:46:13 -0700
+Processing by ListingsController#master_listing as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mListing Load (0.3ms)[0m  SELECT "listings".* FROM "listings"
+  Rendered listings/master_listing.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 90ms (Views: 88.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-10 21:46:14 -0700
+
+
+Started GET "/assets/application.self-d75f4ea3516a73283a73ce66ae061d7e6fefeb06cf58f1a1daebe6491d47f1d6.css?body=1" for ::1 at 2016-05-10 21:46:14 -0700
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-05-10 21:46:14 -0700
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-05-10 21:46:14 -0700
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-05-10 21:46:14 -0700
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-05-10 21:46:14 -0700
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-05-10 21:46:14 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-05-10 21:46:14 -0700
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-05-10 21:46:14 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-05-10 21:46:14 -0700
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-05-10 21:46:14 -0700
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-05-10 21:46:14 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-05-10 21:46:14 -0700
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-05-10 21:46:14 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-10 21:46:14 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-05-10 21:46:14 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-10 21:46:14 -0700
+
+
+Started GET "/assets/listings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-10 21:46:14 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-10 21:46:14 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-10 21:46:14 -0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-05-10 21:46:14 -0700
+
+
+Started GET "/profile/view_profile/4" for ::1 at 2016-05-10 21:46:17 -0700
+Processing by ProfileController#view_profile as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mListing Load (0.2ms)[0m  [1mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered profile/view_profile.html.erb within layouts/application (1.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 105ms (Views: 103.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/listings/4" for ::1 at 2016-05-10 21:46:23 -0700
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mListing Load (0.1ms)[0m  [1mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered listings/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 92ms (Views: 90.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/listings/4" for ::1 at 2016-05-10 21:46:27 -0700
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mListing Load (0.1ms)[0m  SELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered listings/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 83ms (Views: 80.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/listings/mylistings" for ::1 at 2016-05-10 21:46:30 -0700
+Processing by ListingsController#listing_index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mListing Load (7.4ms)[0m  [1mSELECT "listings".* FROM "listings" WHERE "listings"."user_id" = ?[0m  [["user_id", 1]]
+  Rendered listings/listing_index.html.erb within layouts/application (20.7ms)
+Completed 200 OK in 218ms (Views: 118.6ms | ActiveRecord: 7.5ms)
+
+
+Started GET "/index" for ::1 at 2016-05-10 21:46:37 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 93ms (Views: 92.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/listings/mylistings" for ::1 at 2016-05-10 21:46:38 -0700
+Processing by ListingsController#listing_index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mListing Load (0.2ms)[0m  SELECT "listings".* FROM "listings" WHERE "listings"."user_id" = ?  [["user_id", 1]]
+  Rendered listings/listing_index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 98ms (Views: 95.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/index" for ::1 at 2016-05-10 21:46:42 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 86ms (Views: 85.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for ::1 at 2016-05-10 21:46:43 -0700
+Processing by ListingsController#master_listing as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mListing Load (0.4ms)[0m  [1mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/master_listing.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 83ms (Views: 81.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self-d75f4ea3516a73283a73ce66ae061d7e6fefeb06cf58f1a1daebe6491d47f1d6.css?body=1" for ::1 at 2016-05-10 21:46:44 -0700
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-05-10 21:46:44 -0700
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-05-10 21:46:44 -0700
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-05-10 21:46:44 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-10 21:46:44 -0700
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-05-10 21:46:44 -0700
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-05-10 21:46:44 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-05-10 21:46:44 -0700
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-05-10 21:46:44 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-05-10 21:46:44 -0700
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-05-10 21:46:44 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-05-10 21:46:45 -0700
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-05-10 21:46:45 -0700
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-05-10 21:46:45 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-05-10 21:46:45 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-10 21:46:45 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-10 21:46:45 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-10 21:46:45 -0700
+
+
+Started GET "/assets/listings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-10 21:46:45 -0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-05-10 21:46:45 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-10 21:46:45 -0700
+
+
+Started GET "/listings/mylistings" for ::1 at 2016-05-10 21:46:46 -0700
+Processing by ListingsController#listing_index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mListing Load (0.2ms)[0m  [1mSELECT "listings".* FROM "listings" WHERE "listings"."user_id" = ?[0m  [["user_id", 1]]
+  Rendered listings/listing_index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 139ms (Views: 136.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/index" for ::1 at 2016-05-10 21:46:47 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 86ms (Views: 84.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for ::1 at 2016-05-10 21:46:49 -0700
+Processing by ListingsController#master_listing as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mListing Load (0.2ms)[0m  SELECT "listings".* FROM "listings"
+  Rendered listings/master_listing.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 90ms (Views: 88.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-d75f4ea3516a73283a73ce66ae061d7e6fefeb06cf58f1a1daebe6491d47f1d6.css?body=1" for ::1 at 2016-05-10 21:46:50 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-10 21:46:50 -0700
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-05-10 21:46:50 -0700
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-05-10 21:46:50 -0700
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-05-10 21:46:50 -0700
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-05-10 21:46:50 -0700
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-05-10 21:46:50 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-05-10 21:46:50 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-05-10 21:46:50 -0700
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-05-10 21:46:50 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-05-10 21:46:50 -0700
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-05-10 21:46:50 -0700
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-05-10 21:46:50 -0700
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-05-10 21:46:50 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-05-10 21:46:50 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-10 21:46:50 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-10 21:46:50 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-10 21:46:50 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-10 21:46:50 -0700
+
+
+Started GET "/assets/listings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-10 21:46:50 -0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-05-10 21:46:50 -0700
+
+
+Started GET "/listings/4" for ::1 at 2016-05-10 21:46:51 -0700
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mListing Load (0.1ms)[0m  SELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered listings/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 148ms (Views: 145.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/listings/4/buy" for ::1 at 2016-05-10 21:46:53 -0700
+Processing by ListingsController#buy as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mListing Load (0.1ms)[0m  [1mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Redirected to http://localhost:3000/listings/4
+Completed 302 Found in 3ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/listings/4" for ::1 at 2016-05-10 21:46:53 -0700
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mListing Load (0.1ms)[0m  SELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered listings/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 96ms (Views: 93.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-d75f4ea3516a73283a73ce66ae061d7e6fefeb06cf58f1a1daebe6491d47f1d6.css?body=1" for ::1 at 2016-05-10 21:46:53 -0700
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-05-10 21:46:54 -0700
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-05-10 21:46:54 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-10 21:46:54 -0700
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-05-10 21:46:54 -0700
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-05-10 21:46:54 -0700
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-05-10 21:46:54 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-05-10 21:46:54 -0700
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-05-10 21:46:54 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-05-10 21:46:54 -0700
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-05-10 21:46:54 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-05-10 21:46:54 -0700
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-05-10 21:46:54 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-05-10 21:46:54 -0700
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-05-10 21:46:54 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-10 21:46:54 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-10 21:46:54 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-10 21:46:54 -0700
+
+
+Started GET "/assets/listings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-10 21:46:54 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-10 21:46:54 -0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-05-10 21:46:54 -0700
+
+
+Started GET "/listings/mylistings" for ::1 at 2016-05-10 21:46:57 -0700
+Processing by ListingsController#listing_index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mListing Load (0.2ms)[0m  [1mSELECT "listings".* FROM "listings" WHERE "listings"."user_id" = ?[0m  [["user_id", 1]]
+  Rendered listings/listing_index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 98ms (Views: 96.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/index" for ::1 at 2016-05-10 21:47:00 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 83ms (Views: 82.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/profile" for ::1 at 2016-05-10 21:47:02 -0700
+Processing by ProfileController#profile as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered profile/profile.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 102ms (Views: 100.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/index" for ::1 at 2016-05-10 21:47:04 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 99ms (Views: 98.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings/new" for ::1 at 2016-05-10 21:47:07 -0700
+Processing by ListingsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered listings/new.html.erb within layouts/application (174.1ms)
+Completed 200 OK in 311ms (Views: 307.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-d75f4ea3516a73283a73ce66ae061d7e6fefeb06cf58f1a1daebe6491d47f1d6.css?body=1" for ::1 at 2016-05-10 21:47:07 -0700
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-05-10 21:47:07 -0700
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-05-10 21:47:07 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-10 21:47:07 -0700
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-05-10 21:47:07 -0700
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-05-10 21:47:07 -0700
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-05-10 21:47:07 -0700
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-05-10 21:47:07 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-05-10 21:47:07 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-05-10 21:47:07 -0700
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-05-10 21:47:07 -0700
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-05-10 21:47:07 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-10 21:47:07 -0700
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-05-10 21:47:07 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-05-10 21:47:07 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-05-10 21:47:07 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-10 21:47:08 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-10 21:47:08 -0700
+
+
+Started GET "/assets/listings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-10 21:47:08 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-10 21:47:08 -0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-05-10 21:47:08 -0700
+
+
+Started POST "/listings" for ::1 at 2016-05-10 21:47:15 -0700
+Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6kMy8XNjOTOEFA2cbhx6jFhpmlPeglB87DGKJLbpy+R0eTVb3tFBmSfU3AX3RgEMfC5Ox/hkyyjedlhv6q0/Vw==", "listing"=>{"description"=>"sdf", "price"=>"445", "address"=>"sdf", "city"=>"sdf", "state"=>"asdf", "zipcode"=>"asdf", "start_date(1i)"=>"2016", "start_date(2i)"=>"5", "start_date(3i)"=>"11", "start_date(4i)"=>"04", "start_date(5i)"=>"00", "end_date(1i)"=>"2016", "end_date(2i)"=>"5", "end_date(3i)"=>"11", "end_date(4i)"=>"04", "end_date(5i)"=>"00"}, "commit"=>"Submit"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (28.0ms)[0m  INSERT INTO "listings" ("description", "price", "address", "city", "state", "zipcode", "start_date", "end_date", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["description", "sdf"], ["price", 445], ["address", "sdf"], ["city", "sdf"], ["state", "asdf"], ["zipcode", "asdf"], ["start_date", "2016-05-11 04:00:00.000000"], ["end_date", "2016-05-11 04:00:00.000000"], ["user_id", 1], ["created_at", "2016-05-11 04:47:15.773693"], ["updated_at", "2016-05-11 04:47:15.773693"]]
+  [1m[36m (4.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/listings/mylistings
+Completed 302 Found in 41ms (ActiveRecord: 32.3ms)
+
+
+Started GET "/listings/mylistings" for ::1 at 2016-05-10 21:47:15 -0700
+Processing by ListingsController#listing_index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mListing Load (0.2ms)[0m  [1mSELECT "listings".* FROM "listings" WHERE "listings"."user_id" = ?[0m  [["user_id", 1]]
+  Rendered listings/listing_index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 100ms (Views: 98.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-d75f4ea3516a73283a73ce66ae061d7e6fefeb06cf58f1a1daebe6491d47f1d6.css?body=1" for ::1 at 2016-05-10 21:47:16 -0700
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-05-10 21:47:16 -0700
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-05-10 21:47:16 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-10 21:47:16 -0700
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-05-10 21:47:16 -0700
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-05-10 21:47:16 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-05-10 21:47:16 -0700
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-05-10 21:47:16 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-05-10 21:47:16 -0700
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-05-10 21:47:16 -0700
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-05-10 21:47:16 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-05-10 21:47:16 -0700
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-05-10 21:47:16 -0700
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-05-10 21:47:16 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-10 21:47:16 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-05-10 21:47:16 -0700
+
+
+Started GET "/assets/listings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-10 21:47:17 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-10 21:47:17 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-10 21:47:17 -0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-05-10 21:47:17 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-10 21:47:17 -0700
+
+
+Started GET "/index" for ::1 at 2016-05-10 21:47:19 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 85ms (Views: 84.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for ::1 at 2016-05-10 21:47:21 -0700
+Processing by ListingsController#master_listing as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mListing Load (0.2ms)[0m  SELECT "listings".* FROM "listings"
+  Rendered listings/master_listing.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 94ms (Views: 91.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-d75f4ea3516a73283a73ce66ae061d7e6fefeb06cf58f1a1daebe6491d47f1d6.css?body=1" for ::1 at 2016-05-10 21:47:22 -0700
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-05-10 21:47:22 -0700
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-05-10 21:47:22 -0700
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-05-10 21:47:22 -0700
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-05-10 21:47:22 -0700
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-05-10 21:47:22 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-10 21:47:22 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-05-10 21:47:22 -0700
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-05-10 21:47:22 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-05-10 21:47:22 -0700
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-05-10 21:47:22 -0700
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-05-10 21:47:22 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-05-10 21:47:22 -0700
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-05-10 21:47:23 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-05-10 21:47:23 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-10 21:47:23 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-10 21:47:23 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-10 21:47:23 -0700
+
+
+Started GET "/assets/listings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-10 21:47:23 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-10 21:47:23 -0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-05-10 21:47:23 -0700
+
+
+Started GET "/listings/5" for ::1 at 2016-05-10 21:47:26 -0700
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mListing Load (0.5ms)[0m  SELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered listings/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 154ms (Views: 151.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/listings/5/buy" for ::1 at 2016-05-10 21:47:29 -0700
+Processing by ListingsController#buy as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mListing Load (0.2ms)[0m  [1mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.3ms)[0m  [1mUPDATE "listings" SET "sold" = ?, "buyer_id" = ?, "updated_at" = ? WHERE "listings"."id" = ?[0m  [["sold", "t"], ["buyer_id", 1], ["updated_at", "2016-05-11 04:47:29.839061"], ["id", 5]]
+  [1m[35m (12.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "balance" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["balance", 1], ["updated_at", "2016-05-11 04:47:29.856744"], ["id", 1]]
+  [1m[36m (2.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "balance" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["balance", 891], ["updated_at", "2016-05-11 04:47:29.863675"], ["id", 1]]
+  [1m[35m (23.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/listings/5
+Completed 302 Found in 56ms (ActiveRecord: 41.6ms)
+
+
+Started GET "/listings/5" for ::1 at 2016-05-10 21:47:29 -0700
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mListing Load (0.1ms)[0m  SELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered listings/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 108ms (Views: 105.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-d75f4ea3516a73283a73ce66ae061d7e6fefeb06cf58f1a1daebe6491d47f1d6.css?body=1" for ::1 at 2016-05-10 21:47:30 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-10 21:47:30 -0700
+
+
+Started GET "/profile" for ::1 at 2016-05-10 21:47:32 -0700
+Processing by ProfileController#profile as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered profile/profile.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 135ms (Views: 133.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/index" for ::1 at 2016-05-10 21:47:38 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 88ms (Views: 86.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings/mylistings" for ::1 at 2016-05-10 21:47:40 -0700
+Processing by ListingsController#listing_index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mListing Load (0.2ms)[0m  SELECT "listings".* FROM "listings" WHERE "listings"."user_id" = ?  [["user_id", 1]]
+  Rendered listings/listing_index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 134ms (Views: 130.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/listings/mylistings" for ::1 at 2016-05-10 21:48:24 -0700
+Processing by ListingsController#listing_index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mListing Load (0.2ms)[0m  SELECT "listings".* FROM "listings" WHERE "listings"."user_id" = ?  [["user_id", 1]]
+  Rendered listings/listing_index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 87ms (Views: 84.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/index" for ::1 at 2016-05-10 21:48:25 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 101ms (Views: 100.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for ::1 at 2016-05-10 21:48:27 -0700
+Processing by ListingsController#master_listing as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mListing Load (0.3ms)[0m  [1mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/master_listing.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 86ms (Views: 84.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/listings/mylistings" for ::1 at 2016-05-10 21:48:32 -0700
+Processing by ListingsController#listing_index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mListing Load (0.2ms)[0m  [1mSELECT "listings".* FROM "listings" WHERE "listings"."user_id" = ?[0m  [["user_id", 1]]
+  Rendered listings/listing_index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 88ms (Views: 86.0ms | ActiveRecord: 0.3ms)

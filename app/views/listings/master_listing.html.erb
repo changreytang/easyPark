@@ -11,6 +11,7 @@
                 <th>Start Date</th>
                 <th>End Date</th>
                 <th></th>
+                <th></th>
             </tr>
         </thead>
         <tbody>
@@ -26,7 +27,7 @@
 	                    <td><%= data.start_date %></td>
 	                    <td><%= data.end_date %></td>
 	                    <td><%= link_to "Listing Details", show_listing_path(:id => data.id) %></td>
-                      <td><%= link_to "Seller Info", view_profile_path(:id => data.id) %></td>
+                        <td><%= link_to "Seller Info", view_profile_path(:id => data.id) %></td>
 	              	</tr>
 	            <% end %>
             <% end %>
