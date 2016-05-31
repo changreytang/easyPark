@@ -33,6 +33,10 @@ class ListingsController < ApplicationController
   def show
     @listing = Listing.find(params[:id])
     @user = User.find(@listing.user_id)
+    # @hash = Gmaps4rails.build_markers @listing do |listing, marker|
+    #   marker.lat listing.latitude
+    #   marker.lng listing.longitude
+    # end
   end
 
   def edit
@@ -51,6 +55,10 @@ class ListingsController < ApplicationController
 
   def create
     @listing = current_user.listings.new(listing_params)
+    address = @listing.address + " " + @listing.city + ", " + @listing.state + " " + @listing.zipcode
+    location = Geocoder.coordinates(address)
+    @listing.latitude = location[0]
+    @listing.longitude = location[1]
     @listing.save
     redirect_to listing_index_path
   end
@@ -71,7 +79,9 @@ class ListingsController < ApplicationController
       								  :state,
       								  :zipcode,
       								  :start_date,
-      								  :end_date)
+      								  :end_date,
+                        :latitude,
+                        :longitude)
     end
 
 end

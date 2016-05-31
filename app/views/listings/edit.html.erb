@@ -12,6 +12,10 @@
 		<%= f.text_field :state, :value => @listing.state %>
 		<%= f.label :zipcode, "Zip Code" %>
 		<%= f.text_field :zipcode, :value => @listing.zipcode %>
+		<%= f.label :latitude, "Latitude" %>
+		<%= f.text_field :latitude, :value => @listing.latitude %>
+		<%= f.label :longitude, "Longitude" %>
+		<%= f.text_field :longitude, :value => @listing.longitude %>
 		<%= f.label :start_date, "Start Date" %>
 		<%= f.datetime_select :start_date, :ampm => true, :minute_step => 15, :value => @listing.start_date %>
 		<%= f.label :end_date, "End Date" %>
