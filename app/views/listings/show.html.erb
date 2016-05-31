@@ -14,8 +14,6 @@
 	<b>ADDRESS:</b> <%= @listing.address + " " + @listing.city + ", " + @listing.state + " " + @listing.zipcode %></br></br>
 	<% if @listing.sold %>
 		<%= "Listing sold to: " + User.find(@listing.buyer_id).name %>
-	<% elsif @listing.user_id == @user.id %>
-		<%= "" %>
 	<% else %>
 		<%= button_to "Buy Listing", buy_listing_path(:id => @listing.id), :method => :get %>
 	<% end %>
