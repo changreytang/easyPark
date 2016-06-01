@@ -1,5 +1,5 @@
 # easyPark
-You can visit our application at: easyparks.herokuapp.com
+You can visit our application at: https://easyparks.herokuapp.com
 Code can be found here: https://github.com/changreytang/easyPark
 
 ## Inspiration
