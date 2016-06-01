@@ -15,7 +15,7 @@ Runs on Rails Version: 4.2.4
 
 | Details      | -                 | -                  | -                  | -                  | -                  |
 | -------------|-------------------|--------------------|--------------------|--------------------|--------------------|
-| Creators     | Andy Chen         | Alex Kang          | Alex Kang          | Henry Yu           | Angela Yung        |
+| Creators     | Andy Chen         | Alex Kang          | Rey Tang           | Henry Yu           | Angela Yung        |
 | Instructors  | Michael Constanzo | Group 6            |                    |                    |                    |
 | Spring 2016  | CS 48             | UCSB               |                    |                    |                    |
 
