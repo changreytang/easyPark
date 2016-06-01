@@ -21,5 +21,7 @@ Runs on Rails Version: 4.2.4
 
 ## How to Run?
 
-Download and install Ruby (and Rails) using the following link: http://installrails.com/ Git clone this repository and be sure to run bundle update/install and rake:db migrate before running it on the local server.
+Download and install Ruby (and Rails) using the following link: http://installrails.com/ Git clone this repository and be sure to run: "bundle update/install" and "rake:db migrate" before running it on the local server.
+
+
 
